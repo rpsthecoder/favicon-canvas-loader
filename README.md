@@ -1,2 +1,2 @@
-# favicon-canvas-loader
-Create and display a circular loading &lt;canvas> animation as a webpage favicon.
+# Favicon-Canvas Circular Loader
+Create and display a circular loading `<canvas>` animation as a webpage favicon. The canvas-favicon loader can be used to visualize progress of any action performed in a page, like file uploading or image processing.
