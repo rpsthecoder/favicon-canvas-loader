@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="http://bit.ly/ghfavicon" width=32px>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <title>Canvas-Favicon Circular Loader</title>
+    <style>
+    	@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+		.btn {
+		        background-color: #eee;
+		        background-image: linear-gradient(to bottom,#fcfcfc 0,#eee 100%);
+		        border-radius: 3px;
+		        border: 1px solid #d5d5d5;
+		        color: #333;
+		        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; 
+		        font-size: .6rem;
+		        font-weight: bold;
+		        padding: 4px 6px 4px 6px;
+		        text-decoration: none;
+		        text-shadow: 0 1px 0 #fff;
+		}
+		button {
+			background-color: fuchsia;
+			border-radius: 2px;
+			border: none;
+			color: white;
+			font-family: inherit;
+			font-size: inherit;
+			padding: 0px 5px;
+			letter-spacing:1px;
+			cursor: pointer;
+		}
+
+		button:focus {
+			outline: none;
+		}
+		button[disabled]{
+			cursor: default;
+		}
+		html {
+			font-family: 'Crimson Text';
+			font-size: 14pt;
+		}
+    </style>
+</head>
+
+<body>
+    <div style="text-align: left;">
+        <a class=btn href="https://github.com/rpsthecoder/favicon-canvas-loader" target=_blank><i class="fa fa-github fa-lg" aria-hidden="true"></i> Github</a>
+        <a class=btn href="http://bit.ly/faviconloaderdownload" target=_blank><i class="fa fa-cloud-download fa-lg" aria-hidden="true"></i> Download</a>
+    </div>
+    <h1 style="margin-top: 0">Canvas-Favicon Circular Loader Animation</h1>
+    <p>Click <button id=lbtn>Load</button> to see the animation below and in favicon</p>
+    <canvas id=cvl width=16 height=16></canvas>
+</body>
+
+</html>
