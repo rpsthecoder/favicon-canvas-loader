@@ -28,6 +28,7 @@ function updateLoader() {
     if (pct === 100) {
         clearInterval(tc);
         btn.textContent = 'Loaded';
+        btn.style.backgroundColor = 'limegreen';
         return;
     }
     pct++;
